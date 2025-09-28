@@ -1,0 +1,54 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# If you are using Django migrations cache
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables
+*.env
+*.env.*
+
+# Static and media files
+staticfiles/
+media/
+
+# VSCode / PyCharm / IDE configs
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Other tools
+*.swp
+*.swo
